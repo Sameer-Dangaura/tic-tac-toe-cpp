@@ -1,0 +1,23 @@
+# #: is used to comment out in Git. 
+# Since, `.gitignore` file is read by Git. So, # is also used in `.gitignore` file to comment out.
+
+# * : matches anything (including nothing)
+
+
+# Ignore compiled executable files
+*.exe
+*.out
+*.o
+
+# Ignore backup files
+*~
+
+# Ignore temporary editor files (e.g., Vim, VS Code)
+*.swp
+.vscode/
+
+# Ignore object dump files
+*.obj
+
+# Ignore text files:
+*.txt
